@@ -63,7 +63,9 @@
     <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-vibration" />
-
+    <!--Plugin de notificaciones -->
+    <gap:plugin name="com.phonegap.plugins.pushplugin"/>
+    <access origin="*" />
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
     <!--
